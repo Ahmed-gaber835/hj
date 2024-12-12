@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+    animation-name: toktak;
+    transition: 10s;
+    animation-delay: 2s;
+    float: right;
+    animation-duration: 10s;
+}
+@keyframes toktok {
+    0%{ translate: 1200px 0;
+    }
+    50%{
+  transform: rotate(180deg) }
+  100%{
+    translate: 1200px 0 ;}
+  }
+
+
